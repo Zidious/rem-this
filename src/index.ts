@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import meow from "meow";
-import { ERROR, SUCCESS } from "./contants";
+import meow from 'meow';
+import { ERROR, SUCCESS } from './contants';
 
 interface Flags {
   round: boolean;
@@ -20,16 +20,16 @@ const cli = meow(
   {
     flags: {
       round: {
-        type: "boolean",
-        alias: "r",
-        default: true,
+        type: 'boolean',
+        alias: 'r',
+        default: true
       },
       fontSize: {
-        type: "number",
-        alias: "fs",
-        default: 16,
-      },
-    },
+        type: 'number',
+        alias: 'fs',
+        default: 16
+      }
+    }
   }
 );
 
@@ -51,7 +51,7 @@ const app = async () => {
   process.exit(0);
 };
 
-app().catch((e) => {
-  console.error("Something went wrong: ", e);
+app().catch(e => {
+  console.error('Something went wrong: ', e);
   process.exit(1);
 });
