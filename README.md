@@ -1,5 +1,7 @@
 # rem-this
 
+[![npm](https://img.shields.io/npm/dt/rem-this)](https://www.npmjs.com/package/rem-this)
+
 > A simple CLI tool to convert pixel values to rem units.
 
 ## Install
