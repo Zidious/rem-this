@@ -13,7 +13,13 @@ npm install -g rem-this
 ## Usage
 
 ```sh
-rem-this 16
+rem-this 1440
+```
+Output:
+
+```
+1440px => 90rem
+Copied to clipboard!
 ```
 
 ## Flags
