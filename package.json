@@ -1,6 +1,6 @@
 {
   "name": "rem-this",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI to convert px to rem",
   "main": "dist/index.js",
   "repository": "https://github.com/Zidious/rem-this",
@@ -34,7 +34,7 @@
     "typescript": "^4.9.5"
   },
   "lint-staged": {
-    "*.{md,ts}": [
+    "*.{*.ts}": [
       "eslint --fix",
       "prettier --write"
     ]
