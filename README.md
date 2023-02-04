@@ -21,4 +21,5 @@ rem-this 16
 | Flags                | Description                                | Default |
 | -------------------- | ------------------------------------------ | ------- |
 | `--round`, `-r`      | Round the number to the nearest integer    | true    |
+| `--disable-copy`, `-d` | Disable copying the result to the clipboard | false |
 | `--font-size`, `-fs` | The base font size to convert to rem units | 16      |
