@@ -21,6 +21,7 @@ const cli = meow(
     --disable-copy, -d Disable copying to clipboard (default: false)
 `,
   {
+    importMeta: import.meta,
     flags: {
       round: {
         type: 'boolean',
